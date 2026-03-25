@@ -1,0 +1,36 @@
+{
+  "name": "project-task-manager-api",
+  "version": "1.0.0",
+  "description": "REST API for Project and Task management built with Node.js, TypeScript, TypeORM, and PostgreSQL. Fully containerized with Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node --loader ts-node/esm src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antimo90/project-task-manager-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Antimo90/project-task-manager-api/issues"
+  },
+  "homepage": "https://github.com/Antimo90/project-task-manager-api#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
